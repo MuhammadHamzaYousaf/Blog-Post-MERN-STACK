@@ -1,0 +1,92 @@
+.seeting{
+    display: flex;
+}
+
+.seetingwrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.seetingtitle{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.seetingupdatetitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+
+.seetingdeletetitle{
+    font-size: 12px;
+    color: red;
+    cursor: pointer;
+}
+
+.seetingform{
+    display: flex;
+    flex-direction: column;
+}
+
+.seetingPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.seetingPP >img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.seetingicon{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.seetingform >label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.seetingform >input{
+    border: none;
+    color: gray;
+    margin: 10px 0px;
+    border-bottom: 1px solid lightgray;
+    height: 30px;   
+}
+
+.seetingbtn{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease-in;
+}
+
+.seetingbtn:hover{
+    background-color: tomato;
+}
+
+.seetingform >input:focus{
+    outline: none;
+}

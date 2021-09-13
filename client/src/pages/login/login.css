@@ -1,0 +1,60 @@
+.login{
+    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.6)), url("https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.logintitle{
+    font-size: 50px;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.loginform > label{
+    margin: 10px 0px;
+
+}
+
+
+.loginform >input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginbtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.loginbtn:disabled{
+    cursor: not-allowed;
+    background-color: coral;
+}
+
+.loginRegisterbtn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
